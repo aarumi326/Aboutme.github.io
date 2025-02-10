@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html 1ang="en" dir="1tr">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="porfolio.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  </head>
+   <body>
+    
+  <!-- navigaition menu -->
+  <nav>
+    <div class ="nav-container">
+      <div class="logo">
+       Luz <span>Margtez</span>
+      </div>
+     <div class="links">
+       <div class="link"><a href="#">Home</a></div>
+       <div class="link"><a href="#">About</a></div>
+       <div class="link"><a href="#">Skills</a></div>
+       <div class="link"><a href="#">Hobby</a></div>
+       <div class="link"><a href="#">Gallery</a></div>
+       <div class="link"><a href="#">Contact</a></div>
+     </div>
+     <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+     <div class="dropdown">
+       <div class="links">
+         <a href="#">Home</a>
+         <a href="#">About</a>
+         <a href="#">Skills</a>
+         <a href="#">Hobby</a>
+         <a href="#">Gallery</a>
+         <a href="#">Contact</a>
+         <i class="fa-solid fa-xmark cancel"  onclick="cancel()"></i>
+       </div>
+     </div>
+   </nav>
+
+    
+    <section>   
+      <div class="main-container">
+        <div class="image">
+          <img src="bro.png" alt="">
+        </div>
+        <div class="content">
+          <h1 data-aos="fade-left" >Hey I'm <span>Luz Margtez</span></h1>
+          <div class="typewriter">I'm a <span class="typewriter-text">|</span><label for=""></label></div>
+          <p>Diligent and curious student who thrives on exploring new ideas and tackling challenges. He is always eager to learn, often going beyond his class assignments to deepen his understanding of the topics that fascinate him. With a natural ability to stay organized and manage his time effectively, Luz balances his academic responsibilities with activities, such as playing the guitar in the school band and volunteering at a local community center.</p>
+          <div class="social-links">
+            <a href="https://www.youtube.com/watch?v=YCLJz0TANaA"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/aarumi.yoshi"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/luxez_luzzyy/"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="btn">
+            <button>Social Media >_< </button> 
+            <right>
+            <form>
+              <form>
+                <input type="date" name="birthday" class="green-input">
+              </form>
+              
+              <style>
+                .green-input {
+                  background-color: #00ff00; /* Light green background */
+                  border: 1px solid #28a745; /* Green border */
+                  color: #000000; /* Dark green text */
+                  padding: 8px;
+                  border-radius: 4px;
+                  font-size: 20px;
+                }
+                
+                .green-input:focus {
+                  outline: none;
+                  box-shadow: 0 0 5px #28a745; /* Add a green glow when focused */
+                }
+              </style>
+              
+             <font color> <div id="white"></div></font>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+   <!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+    <div class="about-details">
+      <div class="left">
+        <img src="5a744aad-4fb5-4507-9df6-41059a9af496.jpg" alt="Luz's photo"/>
+      </div>
+      <div class="right">
+        <p class="about-text">
+          I'm <span>Luz</span> and I am a <span> Student,Web Designer & Developer</span>. A motivated and passionate learner who is dedicated to both personal development and lifetime learning. In and out of the classroom, I like taking on new challenges, and I try to approach every effort with interest and energy. I effectively blend extracurricular interests like [sports, coding, or volunteering] with academics thanks to my excellent organizational abilities and talent for time management.
+        </p>
+        <div class="exp-area">
+          <p class="exp">Experience: <span>3 Years</span></p>
+          <p class="exp">Specialty: <span>Playing Video Games,Web Designer & Developer</span></p>
+          <p class="exp">Address: <span>Miri, Sarawak</span></p>
+          <p class="exp">Email: <span>LuzzyMartinez69@gmail.com</span></p>
+          <p class="exp">Phone: <span>+60 11-2502 0116</span></p>
+          <p class="exp">Status: <span>Taken</span></p>
+        </div>
+        <div class="button">
+          <button>View All Projects</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+   <!-- My Skills Section Start -->
+<section class="skills" id="skills">
+  <div class="content">
+    <div class="title"><span>Skills</span></div>
+    <div class="skills-details">
+          <div class="topic">"Skills Reflect Our Knowledge, Experience, Dedication, Growth, and Passion."</div>
+      <p>  </p>
+      <div class="experience">
+        <div class="num">3</div>
+        <div class="exp">
+          Years Of <br />
+          Experience
+        </div>
+      </div>
+    </div>
+    <div class="boxes">
+      <div class="box">
+        <div class="topic">HTML</div>
+        <div class="per">80%</div>
+      </div>
+      <div class="box">
+        <div class="topic">CSS</div>
+        <div class="per">85%</div>
+      </div>
+      <div class="box">
+        <div class="topic">JavaScript</div>
+        <div class="per">25%</div>
+      </div>
+      <div class="box">
+        <div class="topic">PHP</div>
+        <div class="per">30%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!--My Hobby-->
+    <section class="hobby" id="hobby">
+      <div class="content">
+        <div class="title"><span>My Hobby</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+             <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Web Development</div>
+            <p>"Web development combines creativity, coding, and problem-solving for innovative solutions."</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">Graphic Design</div>
+            <p>"Graphic design blends creativity, visuals, and communication for impactful storytelling."</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-gamepad"></i>
+            </div>
+            <div class="topic">Video Games</div>
+            <p>"Video games inspire creativity, strategy, and having fun."</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-headphones"></i>
+            </div>
+            <div class="topic">Music</div>
+            <p>"Music heals, inspires, unites, and transforms emotions into beautiful experiences."</p>
+          </div> 
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <div class="topic">Foodie</div>
+            <p>"Exploring diverse dishes, discovering flavors, and embracing a culinary journey."</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-bed"></i>
+            </div>
+            <div class="topic">Sleep</div>
+            <p>"Restores energy, enhances mood, and supports overall well-being."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+<section class="gallery-section">
+  <h2 class="gallery-title">Gallery</h2>
+  <div class="gallery-container">
+    <!-- Image 1 -->
+    <div class="gallery-item">
+      <img src="7624a48b-434d-4a74-b910-a37644214a7d.jpg" alt="Gallery Image 1" />
+    </div>
+    <!-- Image 2 -->
+    <div class="gallery-item">
+      <img src="5a744aad-4fb5-4507-9df6-41059a9af496.jpg" alt="Gallery Image 2" />
+    </div>
+    <!-- Video -->
+    <div class="gallery-item">
+      <video controls>
+        <source src="WhatsApp Video 2024-12-09 at 9.30.36 PM.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <!-- Image 3 -->
+    <div class="gallery-item">
+      <img src="WhatsApp Image 2024-12-16 at 7.07.19 AM (1).jpeg" alt="Gallery Image 3" />
+    </div>
+    <!-- Image 4 -->
+    <div class="gallery-item">
+      <img src="111.jpeg" alt="Gallery Image 4" />
+    </div>
+  </div>
+</section>
+
+
+    <!--Contact Me section Start-->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic"> Have any Questions?</div>
+          <p>Hit me up down below</p>
+        </div>
+        <div class="contact-form-container">
+          <form class="contact-form">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="name" placeholder="Your Email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="contact-btn">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+
+    <!--Footer Section Start-->
+    
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">ArumiPro69</a> | &#169;2024 All Rights Reserved</span>
+        <div id="footer-date-time"></div>
+      </div>
+    </footer>
+    
+    <style>
+      footer {
+        background-color: #222; /* Dark background for the footer */
+        color: #fff; /* White text */
+        padding: 10px;
+        text-align: center;
+        font-size: 0.9em; /* Slightly smaller font size for the footer */
+      }
+    
+      footer .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+      }
+    
+      #footer-date-time {
+        font-size: 0.8em; /* Smaller font size for the date and time */
+        color: #28a745; /* Green text for the date and time */
+      }
+    </style>
+    
+    <script>
+      function updateFooterDateTime() {
+        const now = new Date();
+        const date = now.toLocaleDateString(); // Format: MM/DD/YYYY
+        const time = now.toLocaleTimeString(); // Format: HH:MM:SS AM/PM
+        document.getElementById('footer-date-time').innerText = `${date} | ${time}`;
+      }
+    
+      // Update date and time every second
+      setInterval(updateFooterDateTime, 1000);
+    
+      // Initial call to display immediately
+      updateFooterDateTime();
+    </script>
+    
+    
+
+     
+
+            
+
+  </body>
+</html>
+
+
+
+
+
+
